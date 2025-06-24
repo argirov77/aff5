@@ -9,9 +9,9 @@ export default function Header() {
   const [showMenu, setShowMenu] = useState(false)
 
   const navLinks = [
-    { label: 'Home',         href: '#home'     },
-    { label: 'Services',     href: '#services' },
-    { label: 'Why Choose Us',href: '#why'      },
+    { label: 'Home', href: '#home' },
+    { label: 'Services', href: '#services' },
+    { label: 'Why Choose Us', href: '#why' },
   ]
 
   return (

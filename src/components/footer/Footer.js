@@ -11,7 +11,8 @@ export default function Footer() {
             1 Maple Road, Bramhall, Stockport, Cheshire, England, SK7 2DH
           </p>
           <p className={stl.footer__email}>
-            Email: <a href="mailto:main@axantramedia.com">main@axantramedia.com</a>
+            Email:{' '}
+            <a href="mailto:main@axantramedia.com">main@axantramedia.com</a>
           </p>
         </div>
       </div>
