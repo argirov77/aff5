@@ -37,8 +37,9 @@ export default function Hero() {
               className={stl.header_main__text}
             >
               <p>
-                Axantra Consult Limited is your strategic partner in affiliate marketing and Google Ads.
-                We craft data-driven campaigns to boost your sales, enhance brand visibility, and maximize ROI.
+                Axantra Consult Limited is your strategic partner in affiliate
+                marketing and Google Ads. We craft data-driven campaigns to
+                boost your sales, enhance brand visibility, and maximize ROI.
               </p>
             </motion.div>
             <motion.div
@@ -49,7 +50,10 @@ export default function Hero() {
               <a href="#services" className={stl.header_main__link}>
                 <Button label="Our services" />
               </a>
-              <a href="#contact" className={clsx(stl.header_main__link, stl.dark)}>
+              <a
+                href="#contact"
+                className={clsx(stl.header_main__link, stl.dark)}
+              >
                 <Button label="Contact us" isDark />
               </a>
             </motion.div>
