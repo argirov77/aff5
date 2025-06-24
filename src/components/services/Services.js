@@ -45,9 +45,10 @@ export default function Services() {
               className={stl.header_main__text}
             >
               <p>
-                At Axantra Consult Limited we deliver tailored affiliate marketing programs,
-                full-service Google Ads management, and end-to-end digital marketing
-                strategies designed to drive growth and maximize your ROI.
+                At Axantra Consult Limited we deliver tailored affiliate
+                marketing programs, full-service Google Ads management, and
+                end-to-end digital marketing strategies designed to drive growth
+                and maximize your ROI.
               </p>
             </motion.div>
             <motion.div
@@ -75,8 +76,9 @@ export default function Services() {
                 Social Media Marketing
               </h4>
               <div className={clsx(stl.item_service__text, stl.text)}>
-                We create engaging social media campaigns that build brand awareness
-                and foster meaningful interactions across all major platforms.
+                We create engaging social media campaigns that build brand
+                awareness and foster meaningful interactions across all major
+                platforms.
               </div>
             </motion.article>
             <motion.article
@@ -86,12 +88,11 @@ export default function Services() {
               <div className={stl.item_service__icon}>
                 <img src="/img/Services-02.svg" alt="Service" />
               </div>
-              <h4 className={stl.item_service__title}>
-                Email Marketing
-              </h4>
+              <h4 className={stl.item_service__title}>Email Marketing</h4>
               <div className={clsx(stl.item_service__text, stl.text)}>
                 We design targeted email strategies to nurture leads, enhance
-                customer retention, and drive repeat sales through personalized content.
+                customer retention, and drive repeat sales through personalized
+                content.
               </div>
             </motion.article>
           </div>
@@ -103,12 +104,10 @@ export default function Services() {
               <div className={stl.item_service__icon}>
                 <img src="/img/Services-03.svg" alt="Service" />
               </div>
-              <h4 className={stl.item_service__title}>
-                Paid Advertising
-              </h4>
+              <h4 className={stl.item_service__title}>Paid Advertising</h4>
               <div className={clsx(stl.item_service__text, stl.text)}>
-                We manage and optimize PPC campaigns on Google, Facebook, and LinkedIn
-                to maximize ROI and minimize cost per acquisition.
+                We manage and optimize PPC campaigns on Google, Facebook, and
+                LinkedIn to maximize ROI and minimize cost per acquisition.
               </div>
             </motion.article>
             <motion.article
@@ -118,9 +117,7 @@ export default function Services() {
               <div className={stl.item_service__icon}>
                 <img src="/img/Services-04.svg" alt="Service" />
               </div>
-              <h4 className={stl.item_service__title}>
-                SEO Optimization
-              </h4>
+              <h4 className={stl.item_service__title}>SEO Optimization</h4>
               <div className={clsx(stl.item_service__text, stl.text)}>
                 We optimize your website’s structure, content, and backlinks to
                 improve search rankings and drive organic traffic growth.

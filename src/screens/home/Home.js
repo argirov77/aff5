@@ -15,7 +15,9 @@ export default function Home() {
   return (
     <div className={stl.wrapper}>
       <Head>
-        <title>Axantra Consult Limited – Affiliate Marketing &amp; Google Ads</title>
+        <title>
+          Axantra Consult Limited – Affiliate Marketing &amp; Google Ads
+        </title>
         <meta
           name="description"
           content="Axantra Consult Limited — эксперты в affiliate-маркетинге и Google Ads. Увеличиваем продажи и оптимизируем бюджеты."
@@ -38,4 +40,3 @@ export default function Home() {
     </div>
   )
 }
-

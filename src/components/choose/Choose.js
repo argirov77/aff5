@@ -29,10 +29,7 @@ export default function Choose() {
             {...getScaleAnimation(0.25)}
             className={clsx(stl.images_why__item, stl.images_why__item_1)}
           >
-            <img
-              src="/img/why-image-01.jpg"
-              alt="Affiliate network overview"
-            />
+            <img src="/img/why-image-01.jpg" alt="Affiliate network overview" />
           </motion.div>
           <motion.div
             {...getScaleAnimation(0.4)}
@@ -64,7 +61,8 @@ export default function Choose() {
             >
               <p>
                 At Axantra Consult Limited, we combine deep industry expertise,
-                cutting-edge tools, and transparent reporting to deliver exceptional ROI.
+                cutting-edge tools, and transparent reporting to deliver
+                exceptional ROI.
               </p>
             </motion.div>
             <motion.ul
