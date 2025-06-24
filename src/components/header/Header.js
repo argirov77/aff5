@@ -18,8 +18,9 @@ export default function Header() {
     <>
       <header className={clsx(stl.header, showMenu && stl.menu_open)}>
         <div className={stl.header__container}>
-          <a href="#home" className={stl.header__logo}>
-            <img src="/img/Logo.svg" alt="Axantra Consult Limited" />
+          {/* Заменили картинку на текст */}
+          <a href="#home" className={stl.header__logoText}>
+            Axantra
           </a>
 
           <nav className={clsx(stl.header__menu, stl.menu)}>
@@ -54,8 +55,9 @@ export default function Header() {
         </div>
       </header>
 
+      {/* Стили для кнопки уже были; здесь ничего не меняем */}
       <style jsx>{`
-        /* стиль для кнопки "Get in Touch" в шапке */
+        /* стиль для кнопки "Get in Touch" */
         :global(.${stl.header__button}) {
           display: inline-block;
           margin-left: 1rem;

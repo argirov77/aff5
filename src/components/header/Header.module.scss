@@ -327,3 +327,12 @@
     display: none;
   }
 }
+.header__logoText {
+  font-family: 'Poppins', sans-serif; /* или любой другой шрифт, который подключён */
+  font-size: 1.5rem;                  /* подберите нужный размер */
+  font-weight: 700;                   /* жирность */
+  color: #ffffff;                     /* цвет текста логотипа */
+  text-transform: uppercase;          /* опционально */
+  letter-spacing: 1px;                /* слегка разреженный текст */
+  text-decoration: none;              /* убрать подчеркивание */
+}
